@@ -153,8 +153,10 @@ margin: 10px 0;
 }
 
 .product-card .price strike {
-color: #999;
-margin-right: 5px;
+    color: #999;
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .product-card .rating {
