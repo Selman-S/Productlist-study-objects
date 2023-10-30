@@ -697,7 +697,7 @@ function renderProducts(allProducts) {
           <h4>${product.title}</h4>
           <p class="description">${product.description}</p>
           <p class="price">
-          ${product.discountPercentage ? `<strike>${originalPrice?originalPrice+'₺':''}</strike> ${discountedPrice?discountedPrice+'₺':''}` : `${originalPrice?originalPrice+'₺':''}`}
+          ${product.discountPercentage ? `<strike>${originalPrice?originalPrice+'$':''}</strike> ${discountedPrice?discountedPrice+'$':''}` : `${originalPrice?originalPrice+'$':''}`}
           </p>
           <div class="row justify-content-between ">
           <div class="rating d-inline-block">${stars}</div>
